@@ -9,11 +9,9 @@ public class MainDivisible {
 
 	public static void main(String[] args) {
 
-		CheckDivisible checker = new CheckDivisible();
-	
-		checker.dividend = 15;
-		checker.divisor = 4;
-
-		checker.check();	
+		/*
+		 * YOUR CODE HERE. You have to construct an object instance of CheckDivisible,
+		 * give a value to its fields and call the appropriate method
+		 */
 		}
 }

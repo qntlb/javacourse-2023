@@ -18,15 +18,19 @@ public class OopHelloWorld {
 
 		myMessage.printMessage(); // see how a method is called
 
-		Message myOtherMessage = new Message();
-
-		myMessage.messageToBePrinted = "Good evening";// see how a field of an object is manipulated
-
-		myMessage.printMessage(); // see how a method is called
-		myOtherMessage.printMessage();
+		System.out.println();// we make a line between two prints
 
 		System.out.println("Hi world! " + myMessage.messageToBePrinted); // see how a field of an object is accessed
 
+		System.out.println();
+		
+		Message myOtherMessage = new Message();
+
+		myOtherMessage.printMessage();
+		
+		System.out.println();
+
+	
 		// we do the same with the other object
 		myOtherMessage.messageToBePrinted = "Hallo";
 		
@@ -36,15 +40,18 @@ public class OopHelloWorld {
 		 * calling the method!
 		 */
 		myOtherMessage.printMessage();
+		myMessage.printMessage(); // see how a method is called
+
+		System.out.println();
 
 		/*
 		 * Not always, anyway: we will see how to treat methods whose output does no
 		 * depend on the object calling them
 		 */
-		String firstMessage = "Goodbye";
-		String secondMessage = "Bye bye";
+		String firstMessageToBeGiven = "Goodbye";
+		String secondMessageToBeGiven = "Bye bye";
 
-		myMessage.printMessageWithArgument(firstMessage);
-		myOtherMessage.printMessageWithArgument(secondMessage);
+		myMessage.printMessageWithArgument(firstMessageToBeGiven);
+		myOtherMessage.printMessageWithArgument(secondMessageToBeGiven);
 	}
 }

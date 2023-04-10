@@ -26,7 +26,7 @@ public class HelloWorld {//same name of the file! Otherwise the compiler would c
 		String myNewString; // declaration: creation of the string reference
 		
 		/*
-		 * Initialization: first time we assign a value. We get an error at running time if we try to us myNewString 
+		 * Initialization: first time we assign a value. We get an error at compilation time if we try to use myNewString 
 		 * without having initialized it
 		 */
 		myNewString = "Hello again!";
