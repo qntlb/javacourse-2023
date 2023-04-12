@@ -10,7 +10,7 @@ public class Operators {
 	public static void main(String[] args) {
 
 		// note: type declaration, and then variable assignment, through the operator "=".
-		int a = 5; 
+		int a = 5;
 		
 		//Since it is a primitive, a will contain the actual value and not the reference to an object.
 		System.out.println("The value of a is " + a);
@@ -73,7 +73,6 @@ public class Operators {
 		System.out.println("a < 10 and b > 30: " + (a < 10 & b > 30));
 		System.out.println("a < 10 or b > 30: " + (a < 10 || b > 30));
 
-		System.out.println();
 		System.out.println();
 
 		// Increments and decrements

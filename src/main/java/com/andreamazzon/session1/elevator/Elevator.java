@@ -9,8 +9,8 @@ public class Elevator {
 
 	public static void main(String[] args) {
 		
-		
-		for (int floor = 10 /* initialization */; floor > 0 /* Boolean expression */; floor-- /* step */) {
+		int a = 10;
+		for (int floor = 10 /* initialization */; a > 0 /* Boolean expression */; a=a-2 /* step */) {
 			System.out.println("The elevator is at floor number " + floor);
 		}
 

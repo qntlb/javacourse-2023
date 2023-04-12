@@ -25,7 +25,7 @@ public class OopHelloWorld {
 		System.out.println();
 		
 		Message myOtherMessage = new Message();
-
+		
 		myOtherMessage.printMessage();
 		
 		System.out.println();

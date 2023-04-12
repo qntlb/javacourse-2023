@@ -10,7 +10,7 @@ package com.andreamazzon.session2.treesconstructor;
 public class Tree {
 
 	double height;
-
+	
 	// constructor with a double argument
 	Tree(double heightOfTheNewTree) {
 		System.out.println("A new tree is planted");
@@ -45,6 +45,7 @@ public class Tree {
 		 * int,long, float, double.
 		 */
 		System.out.println("The tree is " + height + " meters high");
+		
 		// try instead
 		//int a;
 		//System.out.println(a);

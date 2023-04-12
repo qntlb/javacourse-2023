@@ -20,8 +20,8 @@ public class Divisible {
 			//if (dividend % divisor == 0) //more common. Writing it separately I wanted to stress the fact that it's a boolean
 			System.out.println(dividend + " is divisible by " + divisor);
 		}
-		//else {
-		//	System.out.println(dividend + " is not divisible by " + divisor);
-		//}
+		else {
+			System.out.println(dividend + " is not divisible by " + divisor);
+		}
 	}
 }
