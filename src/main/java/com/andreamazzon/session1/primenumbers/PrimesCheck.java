@@ -7,8 +7,13 @@ package com.andreamazzon.session1.primenumbers;
  * @author: Andrea Mazzon
  */
 public class PrimesCheck {
-	//your code here: 
-	
-	//write the class such that it has a method checkIfPrime(numberToBeChecked) which checks if numberToBeChecked is prime
-	
+
+	boolean checkIfPrime(int numberToBeChecked) {
+		for (int possibleDivisor = 2; possibleDivisor <= Math.sqrt(numberToBeChecked); possibleDivisor ++) {
+			if (numberToBeChecked % possibleDivisor == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
 }

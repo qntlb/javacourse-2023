@@ -23,7 +23,7 @@ public class Power {
 	 * @param exponent
 	 */
 	void computePower(double base, int exponent) {
-		//your code here
+		result = Math.pow(base, exponent);
 	}
 
 	/**

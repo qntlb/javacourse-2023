@@ -11,6 +11,8 @@ public class Tree {
 
 	double height;
 	
+	Tree aTreeField;
+	
 	// constructor with a double argument
 	Tree(double heightOfTheNewTree) {
 		System.out.println("A new tree is planted");
@@ -49,6 +51,11 @@ public class Tree {
 		// try instead
 		//int a;
 		//System.out.println(a);
-		//error!
+		//error!	
 	}
+	
+	
+	//void makeTheTreeFieldCallAMethod() {
+	//	aTreeField.printHeight();
+	//}
 }

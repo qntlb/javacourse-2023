@@ -11,7 +11,7 @@ public class PowerMain {
 
 	public static void main(String[] args) {
 		Power powerCalculator = new Power();
-		double base = -3.2; // negative number!
+		double base = - 3.2; // negative number!
 		int intExponent = 2;
 		double doubleExponent = 2.5;
 		powerCalculator.computePower(base, intExponent);// everything fine: the arguments are double, int

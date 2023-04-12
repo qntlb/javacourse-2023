@@ -21,6 +21,7 @@ public class CheckGaussFormula {
 		System.out.println("The sum of the first " + lastNumber + " numbers is " + directSum);
 		
 		System.out.println();
+		
 		System.out.println("The sum of the first " + lastNumber + " numbers with Gauss formula is " + gaussSum);
 	}
 }

@@ -14,6 +14,9 @@ public class TreeMain {
 
 		Tree myTree = new Tree(treeHeight); // call of the constructor with the double argument
 
+		//Tree myTree = new Tree();
+		//myTree.height = treeHeight;
+		
 		myTree.printHeight();
 
 		Tree mySecondTree = new Tree();
@@ -27,6 +30,10 @@ public class TreeMain {
 		 * garbage value, so each primitive field of a class is guaranteed to get an
 		 * initial value
 		 */
+		
+		//mySecondTree.aTreeField = new Tree(4.0);
+		
+		//mySecondTree.makeTheTreeFieldCallAMethod();
 
 	}
 }

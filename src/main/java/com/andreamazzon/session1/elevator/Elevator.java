@@ -9,11 +9,11 @@ public class Elevator {
 
 	public static void main(String[] args) {
 		
-		int a = 10;
-		for (int floor = 10 /* initialization */; a > 0 /* Boolean expression */; a=a-2 /* step */) {
+		for (int floor = 10 /* initialization */; floor > 0 /* Boolean expression */; floor-- /* step */) {
 			System.out.println("The elevator is at floor number " + floor);
 		}
 
+//		System.out.println(floor);//ERROR!
 		System.out.println();
 		
 		System.out.println("The elevator is at ground level");
@@ -24,7 +24,6 @@ public class Elevator {
 			System.out.println("The elevator is at floor number " + i);
 			i--;
 		}
-		
 		
 		System.out.println();
 		

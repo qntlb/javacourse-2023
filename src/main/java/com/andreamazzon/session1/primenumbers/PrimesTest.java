@@ -13,8 +13,8 @@ public class PrimesTest {
 
 		PrimesCheck checker = new PrimesCheck();
 
-		//boolean result = checker.checkIfPrime(numberToBeChecked);
+		boolean result = checker.checkIfPrime(numberToBeChecked);
 
-		//System.out.println("Is the number " + numberToBeChecked + " prime? " + result);
+		System.out.println("Is the number " + numberToBeChecked + " prime? " + result);
 	}
 }

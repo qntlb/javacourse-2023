@@ -24,6 +24,10 @@ public class WhileRandom {
 		} while (randomNumberGenerator.nextInt(2) == 1); // 0 is tail, 1 is head
 		
 		
+		//while (randomNumberGenerator.nextInt(2) == 1);{// 0 is tail, 1 is head
+		//	numberOfFlips++;
+		//}
+		
 		// nextInt(n) produces a random natural number (0 included) smaller than n
 		System.out.println("I got a tail after " + numberOfFlips + " launches");
 	}

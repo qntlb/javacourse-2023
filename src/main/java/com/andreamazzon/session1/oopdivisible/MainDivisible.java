@@ -8,10 +8,10 @@ package com.andreamazzon.session1.oopdivisible;
 public class MainDivisible {
 
 	public static void main(String[] args) {
-
-		/*
-		 * YOUR CODE HERE. You have to construct an object instance of CheckDivisible,
-		 * give a value to its fields and call the appropriate method
-		 */
+		
+		CheckDivisible checker = new CheckDivisible();
+		checker.dividend = 12;
+		checker.check();
+		
 		}
 }
