@@ -38,9 +38,10 @@ public class ClientUsingComplexNumbers {
 		print( " by its conjugate is ");
 		product.showWithNewLine();
 
-		//note: we can not use the (private!) constructor
+//		//note: we can not use the (private!) constructor
 		ComplexNumber newComplexNumber = ComplexNumber.setComplexNumber(1.0, 2.0);
 
+		
 		//we compute and print the sum of the two complex numbers
 		print("The sum of ");
 		complexNumber.show();

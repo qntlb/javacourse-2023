@@ -16,7 +16,7 @@ public class ArrayRandom {
 
 		Random randomProducer = new Random(); //random numbers generator
 
-		int length = randomProducer.nextInt(20); //(pseudo)random integer between 0 and 19
+		int length = randomProducer.nextInt(20) + 1; //(pseudo)random integer between 1 and 20
 
 		int[] arrayToBeFilled = new int[length];
 		//or:

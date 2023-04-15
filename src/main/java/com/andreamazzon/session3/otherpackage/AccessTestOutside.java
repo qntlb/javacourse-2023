@@ -19,6 +19,7 @@ public class AccessTestOutside {
 		 * Access.
 		 */
 		//access.packageAccessMethod(); 
+		//access.privateMethod();
 		access.publicMethod();
 		//print(access.packageAccessField); // this field has package access! it is not possible to access it from here
 		print(access.publicField);

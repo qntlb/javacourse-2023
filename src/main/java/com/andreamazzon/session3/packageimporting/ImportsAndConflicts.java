@@ -38,7 +38,11 @@ public class ImportsAndConflicts {
 		 */
 		//Vector v1 = new Vector(); 
 		
+		//I can do that:
+		
 		//java.util.Vector secondVector = new java.util.Vector(); 
+		
+		//com.andreamazzon.session3.useful.Vector thirdVector = new com.andreamazzon.session3.useful.Vector(); 
 	}
 
 }

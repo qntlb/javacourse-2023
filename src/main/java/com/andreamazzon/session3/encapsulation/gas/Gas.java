@@ -18,7 +18,7 @@ public class Gas {
 
 	private double temperatureKelvin; // it should be Kelvin: private, the client does not see it
 	private double pressure; // Pascal
-
+	
 	private final static double gayLussacConstant = 8.3145; // final keyworld: it can not be modified
 
 	private static double kelvinToFahrenheit(double temperatureKelvin) { // Transformations for outputs
@@ -34,7 +34,9 @@ public class Gas {
 	 * performed (we work with Kelvin, the client wants to read Fahreneit)
 	 */
 	public double getTemperature() {
-		return kelvinToFahrenheit(temperatureKelvin);
+		double temperatureFahrenheit = kelvinToFahrenheit(temperatureKelvin);
+		return temperatureFahrenheit;
+		//return kelvinToFahrenheit(temperatureKelvin);
 	}
 
 	/*
@@ -55,7 +57,7 @@ public class Gas {
 	public double getPressure() {
 		calculatePressure();
 		//you can also do:
-		//pressure = temperatureKelvin * gayLussacConstant;
+		//double pressure = temperatureKelvin * gayLussacConstant;
 		return pressure;
 	}
 }

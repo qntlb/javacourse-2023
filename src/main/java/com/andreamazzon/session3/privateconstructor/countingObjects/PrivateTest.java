@@ -12,6 +12,9 @@ public class PrivateTest{
 	public static void main(String[] args){
 		
 		//PrivateConstructorClass anObject = new PrivateConstructorClass(); //we cannot
+		//PrivateConstructorClass anotherObject = new PrivateConstructorClass(); //we cannot
+		//PrivateConstructorClass oneMoreObject = new PrivateConstructorClass(); //we cannot
+
 		
 		//the private constructor is called from inside the class PrivateConstructorClass
 		PrivateConstructorClass firstObject = PrivateConstructorClass.CreateOneObject();

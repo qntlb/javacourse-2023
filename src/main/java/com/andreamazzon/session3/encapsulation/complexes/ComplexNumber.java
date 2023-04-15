@@ -98,7 +98,6 @@ public class ComplexNumber {
 		 * The sum is more conveniently computed in Cartesian coordinates.
 		 * We get the real and imaginary part of both the numbers and we sum them.
 		 */
-		
 		double realPartMyComplexNumber = getRealPart();
 		double realPartOtherComplexNumber = complexNumber.getRealPart();
 		
@@ -121,9 +120,13 @@ public class ComplexNumber {
 		
 		double angleOfMyComplexNumber = theta;
 		double angleOfGivenComplexNumber = complexNumber.theta;
-		//the product is more efficiently computed in polar coordinates!
-		return new ComplexNumber(radiusOfMyComplexNumber * radiusOfGivenComplexNumber, 
+		
+		ComplexNumber product = new ComplexNumber(radiusOfMyComplexNumber * radiusOfGivenComplexNumber, 
 				angleOfMyComplexNumber + angleOfGivenComplexNumber);
+		return product;
+		//the product is more efficiently computed in polar coordinates!
+		//return new ComplexNumber(radiusOfMyComplexNumber * radiusOfGivenComplexNumber, 
+		//		angleOfMyComplexNumber + angleOfGivenComplexNumber);
 	}
 
 	/*
@@ -144,7 +147,7 @@ public class ComplexNumber {
 	 */
 	public void show(){//a + b i
 		if (getImaginaryPart() !=0.0){
-			print(this.getRealPart() + " " + imaginarySign() //gets the right sign before the imaginary unit
+			print(getRealPart() + " " + imaginarySign() //gets the right sign before the imaginary unit
 			+ Math.abs(getImaginaryPart()) + " i ");
 		}
 		else {

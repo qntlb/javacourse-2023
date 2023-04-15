@@ -32,9 +32,9 @@ public class AccessTest {
 		access.packageAccessMethod();//fine, this method has no access modifier: it can be called from inside the package
 		//access.privateMethod(); //this method is private! Not possible to call it from outside the class
 
-		printn("The package asset field is " + access.packageAccessField);
-		printn("The public asset field is " + access.publicField);
-		//printn("The private asset field is " + access.privateField); //private field not visible
+		printn("The package access field is " + access.packageAccessField);
+		printn("The public access field is " + access.publicField);
+		//printn("The private access field is " + access.privateField); //private field not visible
 		
 		PackageAccessOnly packageAccessOnly = new PackageAccessOnly();//the package access class can be created
 		/*

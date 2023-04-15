@@ -19,7 +19,7 @@ public class PrivateConstructorClass{
 	// This field is static: it must be accessed from the static method CreateOneObject()
 	private static int howManyObjects = 0;
 	
-	private PrivateConstructorClass(){ //private constructor
+	PrivateConstructorClass(){ //private constructor
 		printn("This is a private constructor. An object gets created. Number of objects created: " + howManyObjects);
 	};
 

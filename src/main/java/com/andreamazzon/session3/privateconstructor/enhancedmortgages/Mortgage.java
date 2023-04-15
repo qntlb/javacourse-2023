@@ -31,7 +31,7 @@ public class Mortgage {
 		System.out.println("Sum of all the loans : " + loansSum);
 		System.out.println();
 	}
-	
+
 	/**
 	 * It returns an object of type Mortgage if the former value of loansSum plus amount is less or equal than
 	 * maximumBudget.
@@ -47,6 +47,7 @@ public class Mortgage {
 	 * order to do that we cannot need an object of the class itself.
 	 */
 	public static Mortgage constructMortgage(String name, int age, double amount) {
+
 		//your code here
 		return null;
 	}

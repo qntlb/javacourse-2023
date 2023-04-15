@@ -18,12 +18,13 @@ public class TravelSpeedClient {
 
 		TravelSpeed myTravel = new TravelSpeed(distanceInKm, timeInMinutes);
 		
-		//myTravel.setDistance(40);//would be fine
+		myTravel.setDistance(40);//would be fine
+		
 		
 		//double myDistance = myTravel.getDistance();//would be fine
 		
 		//this does not have to work
-		//myTravelTime.distance = 40;//in km! no that nice for us
+		//myTravel.distance = 40;//in km! no that nice for us
 		
 		//this does not have to work
 		//printn("The distance is " + myTravel.distance);
