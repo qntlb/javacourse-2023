@@ -48,7 +48,15 @@ public class Mortgage {
 	 */
 	public static Mortgage constructMortgage(String name, int age, double amount) {
 
-		//your code here
+		loansSum += amount; //the field is immediately incremented, and is the same for every Mortgage object
+		if (loansSum <= budget) {
+			//the private constructor is called, from inside the class: fine
+			Mortgage newMortgage = new Mortgage(name, age, amount);
+			return newMortgage;
+		}
+		System.out.println("Enough objects! We have excedeed the budget");
+		loansSum -= amount;
+		//we have to return an object of type Mortgage, but we don't want to construct any! A solution is to return null
 		return null;
 	}
 }
