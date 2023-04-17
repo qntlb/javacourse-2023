@@ -11,6 +11,12 @@ package com.andreamazzon.session4.overridingandoverloading.videogame;
  */
 
 public class Warrior {
+	
+	/*
+	 * This is the value of health points, when reaches zero the warrior dies. Here
+	 * we give the initial value, but of course it might change over time.
+	 */
+	private double healthPoints = 1000;
 
 	/*
 	 * It is protected because will be used also by the derived class. Final and static
@@ -21,11 +27,6 @@ public class Warrior {
 	 */
 	protected final static int impactOnWarriors = 10;
 
-	/*
-	 * This is the value of health points, when reaches zero the warrior dies. Here
-	 * we give the initial value, but of course it might change over time.
-	 */
-	private double healthPoints = 1000;
 
 	public Warrior() {
 		System.out.println("New warrior created");// constructor

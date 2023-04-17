@@ -18,16 +18,16 @@ public class Toad extends Amphibian{
 	@Override
 	public void swimming(){//the access cannot be more restrictive than the one of the method of the base class
 		printn("Toad swimming");
-	};
+	}
 
 	@Override
 	public void walking(){//the access cannot be more restrictive than the one of the method of the base class
 		printn("Toad walking");
-	};
+	}
 
 	@Override
 	public void creaking(){//the access cannot be more restrictive than the one of the method of the base class
 		printn("Toad creaking");
-	};
+	}
 
 }

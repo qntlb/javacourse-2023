@@ -20,5 +20,10 @@ public class Shape {
 		 */
 		return 0;
 	}
+	
+	public void draw() {
+		System.out.println("I draw a shape");
+	}
+	
 }
 

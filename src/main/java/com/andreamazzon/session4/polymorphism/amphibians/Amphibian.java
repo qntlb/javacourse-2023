@@ -22,9 +22,11 @@ public class Amphibian{
 	public void swimming(){
 		printn("Amphibian swimming");
 	};
+	
 	public void walking(){
 		printn("Amphibian walking");
 	};
+	
 	public void creaking(){
 		printn("Amphibian creaking");
 	};
@@ -44,7 +46,4 @@ public class Amphibian{
 		amphibian.walking();
 		amphibian.creaking();
 	}
-	
-	
-
 }

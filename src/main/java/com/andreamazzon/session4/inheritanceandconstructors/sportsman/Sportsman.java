@@ -18,8 +18,7 @@ public class Sportsman {
 	Sportsman(String name) {
 		printn("I am a sportsman. My name is " + name);
 	}
-
-
+	
 	/*
 	 * Try to uncomment it: if you do so, you don't need to explicitly call the
 	 * super constructor in the derived class

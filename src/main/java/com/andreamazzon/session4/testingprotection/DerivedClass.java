@@ -14,7 +14,7 @@ import com.andreamazzon.session4.protectedotherpackage.ParentClassOtherPackage;
  *
  */
 public class DerivedClass extends ParentClassOtherPackage {
-
+	
 	public DerivedClass(int i) {
 		/*
 		 * i gets inherited from the base class: it is defined in the base class.

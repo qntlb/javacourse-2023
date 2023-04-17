@@ -40,7 +40,6 @@ public class RandomShapeGenerator {
 		 * if there is no break: can you tell why?
 		 */
 		case 0:
-			
 			Circle circle = new Circle();//CHANGE IT IF YOU HAVE TO!
 			return circle;
 			// also:
