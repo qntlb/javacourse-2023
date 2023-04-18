@@ -40,16 +40,16 @@ public class RandomShapeGenerator {
 		 * if there is no break: can you tell why?
 		 */
 		case 0:
-			Circle circle = new Circle();//CHANGE IT IF YOU HAVE TO!
+			Circle circle = new Circle(radiusOfCircle);
 			return circle;
 			// also:
 			//return new Circle(radiusOfCircle); // upcasted to Shape.
 		case 1:
 			// call the right constructor
-			return new Square(); //CHANGE IT IF YOU HAVE TO! // upcasted to Shape
+			return new Square(sideOfSquare); // upcasted to Shape
 		case 2:
 			// call the right constructor
-			return new Triangle(); //CHANGE IT IF YOU HAVE TO! // upcasted to Shape
+			return new Triangle(basisOfTriangle, heightOfTriangle);// upcasted to Shape
 		/*
 		 * compulsory default. Actually we know that it will never be the case, because
 		 * due to rand.nextInt(3) we have anyway a number 0, 1 or 2.

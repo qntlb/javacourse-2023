@@ -9,5 +9,21 @@ package com.andreamazzon.session4.polymorphism.shapes;
  */
 public class Square extends Shape {
 	
-	//YOUR CODE HERE
+	private double side;
+
+	public Square(double side) {
+		this.side=side;
+	}
+
+	/*
+	 * Note the @Override annotation: if we use it, we get an error if our method is not overriding a method
+	 * of the parent class. This is useful to avoid mistakes (for example we are accidentally changing the name
+	 * of the method)
+	 */
+	@Override
+	public double computeArea() {
+		System.out.println("Computing the area of this square..");
+		return side*side;
+	}
+
 }
