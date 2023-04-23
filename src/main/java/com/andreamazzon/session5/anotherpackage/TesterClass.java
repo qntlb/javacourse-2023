@@ -5,7 +5,6 @@ package com.andreamazzon.session5.anotherpackage;
  * by a public class
  */
 import com.andreamazzon.session5.packageaccessinterfaces.ImplementingClass;
-//import com.andreamazzon.session5.packageaccessinterfaces.PackageAccessInterface;
 
 public class TesterClass {
 

@@ -21,6 +21,7 @@ public class Square extends Shape {
 	 * of the parent class. This is useful to avoid mistakes (for example we are accidentally changing the name
 	 * of the method)
 	 */
+	@Override
 	public double computeArea() {
 		System.out.println("Computing the area of this square..");
 		return side*side;

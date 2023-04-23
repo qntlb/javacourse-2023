@@ -33,12 +33,10 @@ public class ShapeTest {
 		RandomShapeGenerator generator = new RandomShapeGenerator(basisOfTriangle, heightOfTriangle, sideOfSquare,
 				radiusOfCircle);
 
-		Shape shape;
-
 		// Fill the array with shapes:
 		for (int i = 0; i < numberOfShapes; i++) {
 			
-			shape = generator.nextShape(); // automatic upcasting
+			Shape shape = generator.nextShape(); // automatic upcasting
 			
 			/*
 			 * If you just look at the reference, you might be surprised to see

@@ -11,7 +11,7 @@ public class TestClass {
 	public static void main(String[] args) {
 		int age = 2;
 		int horsePower = 100;
-		Car car = new Car(age, horsePower);
+		BadImplementationOfCar car = new BadImplementationOfCar(age, horsePower);
 		car.startCar();// look at it: it delegates
 	}
 }

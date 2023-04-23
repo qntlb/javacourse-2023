@@ -39,5 +39,14 @@ public class TestClass {
 				
 		Amphibian.behavior(toad);
 		
+		
+		Amphibian anotherToad = new Toad();
+		
+		anotherToad.creaking();
+		
+		Amphibian amphibian = new Amphibian();
+		
+		amphibian.creaking();
+		
 	}
 }

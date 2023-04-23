@@ -13,5 +13,5 @@ public interface AnimalThatFlies {
 
 	void eat();
 
-	double interfaceField = 10;
+	//double interfaceField = 10;
 }

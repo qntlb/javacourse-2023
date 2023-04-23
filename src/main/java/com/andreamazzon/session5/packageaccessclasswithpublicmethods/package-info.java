@@ -1,0 +1,1 @@
+package com.andreamazzon.session5.packageaccessclasswithpublicmethods;

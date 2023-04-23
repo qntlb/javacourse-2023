@@ -11,6 +11,5 @@ public interface Cure {
 
 	// these methods are implicitly public
 	void diagnose();
-
 	void heal();
 }

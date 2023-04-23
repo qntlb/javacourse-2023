@@ -20,7 +20,7 @@ public class Circle extends Shape {
 	 * not overriding a method of the parent class. This is useful to avoid mistakes
 	 * (for example we are accidentally changing the name of the method)
 	 */
-	@Override
+	//@Override
 	public double computeArea() {
 		System.out.println("Computing the area of this circle..");
 		return Math.PI * radius * radius;

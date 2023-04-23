@@ -14,7 +14,7 @@ public class Healing {
 	public static void someHealing(Cure ourCure) {// object of any class implementing Cure
 		ourCure.diagnose();// the right implementation of the method is called at running time
 		ourCure.heal();
-		//c.aDoctorMethod();//it is not a method common to every class implementing Cure
+		//ourCure.aDoctorMethod();//it is not a method common to every class implementing Cure
 		/*
 		 * I can downcast, it does not complain at compilation time. But it's dangerous:
 		 * see what happens when I call the method for an object of type Antivirus. This is

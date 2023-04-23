@@ -7,6 +7,7 @@ package com.andreamazzon.session5.inheritinginterfaces;
  *
  */
 public class FirstClass {
+	
 	void aClassMethod() {
 		System.out.println("A class method");
 	}

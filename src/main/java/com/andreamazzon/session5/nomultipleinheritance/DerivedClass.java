@@ -11,15 +11,13 @@ package com.andreamazzon.session5.nomultipleinheritance;
  * @author Andrea Mazzon
  *
  */
-public class DerivedClass extends FirstParentClass {
+public class DerivedClass extends FirstParentClass  {
 
 	/*
 	 * This class has no constructor, but so the default one implemented in
 	 * Java is called. If this class inherits from both classes, both the parents
 	 * constructors are called: and then, to which value should i be set?
 	 */
-	
-	
 	public void specificMethod() {
 		System.out.println("A method of the derived class");
 	}

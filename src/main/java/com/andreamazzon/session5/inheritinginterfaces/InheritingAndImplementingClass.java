@@ -28,4 +28,5 @@ public class InheritingAndImplementingClass extends FirstClass implements Inheri
 	void aClassMethod() {
 		System.out.println("Overriding of class method");
 	}
+	
 }
