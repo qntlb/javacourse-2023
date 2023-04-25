@@ -7,9 +7,9 @@ package com.andreamazzon.session6.exceptions.divisions;
  * @author Andrea Mazzon
  *
  */
-public class OverflowException extends Exception { // not an important warning
+public class OverflowException extends MyException { // not an important warning
 	
-
+	@Override
 	public void printExceptionMessage() {// method you want to call when you catch the exception
 		System.out.print("I catched an overflow exception");
 	}

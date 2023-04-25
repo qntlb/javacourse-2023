@@ -54,6 +54,10 @@ public class GenericTesting {
 		System.out.println("Complex number type instantiation of the generic class.");
 		System.out.println("Real part: " + aComplex.getRealPart());
 		System.out.println("Imaginary part: " + aComplex.getImaginaryPart());
+		
+		// you cannot set the field (for this same object) to be of another type!
+		//aComplexContainer.setField(10.0);
+		
 
 	}
 }

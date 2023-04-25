@@ -11,6 +11,7 @@ package com.andreamazzon.session6.innerclasses.nestedclasses;
  */
 
 class Outer {
+	
 	private static int staticOuterField = 9;
 	
 	private int nonStaticOuterField = 3;

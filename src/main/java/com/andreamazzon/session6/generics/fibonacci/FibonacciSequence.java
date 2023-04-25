@@ -12,8 +12,8 @@ import com.andreamazzon.session6.generics.genericinterfaces.GenericNext;
  */
 public class FibonacciSequence implements GenericNext<Long> {//I give the type of the type returned in next()
 	
-	private Long firstFibonacciNumber = 1L;
-	private Long secondFibonacciNumber = 1L;
+	private Long firstFibonacciNumber = 1L;//2
+	private Long secondFibonacciNumber = 1L;//3
 	
 	private int count = 1;
 
@@ -30,9 +30,9 @@ public class FibonacciSequence implements GenericNext<Long> {//I give the type o
 			return 1L;
 		}
 		
-		fibonacciSum = firstFibonacciNumber + secondFibonacciNumber;
-		firstFibonacciNumber = secondFibonacciNumber;
-		secondFibonacciNumber = fibonacciSum;
+		fibonacciSum = firstFibonacciNumber + secondFibonacciNumber;//2+3=5
+		firstFibonacciNumber = secondFibonacciNumber;//3
+		secondFibonacciNumber = fibonacciSum;//5
 		return fibonacciSum;
 	}
 	

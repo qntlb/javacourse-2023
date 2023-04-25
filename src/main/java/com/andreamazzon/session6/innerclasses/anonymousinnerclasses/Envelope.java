@@ -19,7 +19,7 @@ public class Envelope {
 	 * read() of Letter is implemented.
 	 */
 	public Envelope() {
-
+	
 		/*
 		 * Anonymous inner class! Here you say that Envelope has an inner class which
 		 * implements Letter and that you create an object of this class (look at the
@@ -33,10 +33,26 @@ public class Envelope {
 				System.out.println(content);
 			}	
 		};
-		//other way, even more compact
+		
+		//the longer way to do the same would have been:
+		//letter = new InnerClassImplementingLetter();
+		//(see the code at lines 47-52)
+		
+		/*
+		 * Other way, even more compact, that I can use since my inner, anonymous class
+		 * has to implement an interface only with one method (called for this reason 
+		 * "functional interface")
+		 */
 		//letter = () -> System.out.println(content);
-		// anonymous class
 	}
+	
+	
+//	private class InnerClassImplementingLetter implements Letter {
+//		@Override
+//		public void read() {
+//			System.out.println(content);
+//		}	
+//	}
 
 
 	/**

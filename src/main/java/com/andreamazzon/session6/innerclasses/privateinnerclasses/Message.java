@@ -28,7 +28,7 @@ public class Message {
 	 * @return an object of type Printer, i.e., an object which is able to call the
 	 *         method print() of the interface Printer.
 	 */
-	public MessagePrinter getAPrinter() {
+	public Printer getAPrinter() {
 		/*
 		 * Note that a priori, from the outside you don't know the specific type of the
 		 * object returned by this method

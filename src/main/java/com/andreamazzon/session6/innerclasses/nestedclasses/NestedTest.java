@@ -12,5 +12,4 @@ public class NestedTest {
 		int outerData = staticInner.getOuterStaticData();
 		System.out.println("The outer static, int field is " + outerData);
 	}
-
 }

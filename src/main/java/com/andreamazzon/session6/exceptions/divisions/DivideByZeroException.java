@@ -8,9 +8,9 @@ package com.andreamazzon.session6.exceptions.divisions;
  * @author Andrea Mazzon
  *
  */
-public class DivideByZeroException extends Exception {
+public class DivideByZeroException extends MyException {
 	
-	
+	@Override
 	public void printExceptionMessage() {// method you want to call when you catch the exception
 		System.out.println("You are dividing by zero");
 	}
