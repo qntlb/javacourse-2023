@@ -118,4 +118,39 @@ public class UsefulMethodsMatricesVectors {
 		}
 		return max;
 	}
+	
+	
+	/**
+	 * It returns an array of integers which represent the number of realizations of
+	 * a given array that lie in every subinterval (bin) of an interval [minBin, maxBin].
+	 * All the subintervals are of equal length. The first entry of the integer array
+	 * represents the number of realizations strictly smaller then minBin, the last one the
+	 * number of realizations bigger than maxBin.
+	 *
+	 * @param realisations
+	 * @param minBin
+	 * @param maxBin
+	 * @param binsNumber,  number of the subintervals
+	 * @return array of integers
+	 */
+	public static int[] buildHistogram(double[] realizations, double minBin, double maxBin, int binsNumber) {
+		int[] bins = new int[binsNumber + 2];// two more because of outliers
+		double binSize = (maxBin - minBin) / binsNumber; // every bin has the same length
+		for (double realization : realizations) {
+			if (realization < minBin) { // it goes in the first bin
+				bins[0] += 1;
+			} else if (realization > maxBin) {
+				bins[binsNumber + 1] += 1; // it goes in the last bin
+			} else {
+				int intRatio = (int) ((realization - minBin) / binSize);
+				/*
+				 * bin[i+1] (remember: in Java the first entry is 0, and here bin[0] hosts the
+				 * realization smaller than min) hosts the realization such that (realization -
+				 * minBin) / binSize is in [i,i+1)
+				 */
+				bins[intRatio + 1] += 1;
+			}
+		}
+		return bins;
+	}
 }
